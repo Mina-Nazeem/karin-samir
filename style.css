@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/2.PNG");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    /*text-transform: uppercase;*/
+    margin: 0px 0;
+    /*letter-spacing: 2px;*/
+    /* color: white;*/
+}
+
+.container .header img{
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    margin-top: 90px;
+}
+.container .header .logo1 img{
+    width: 270px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.container .header h1 p{
+    font-family: 'Pacifico', cursive;
+}
+
+.body{
+    padding: 0px 0;
+    text-align: center;
+
+}
+
+.body button{
+    width: 85%;
+    height: 110px;
+    border-radius: 15px;
+    border:none;
+    box-shadow: 2px 2px 4px #885a5a;
+    background-color: rgb(254, 105, 142);
+    margin: 10px 0;
+    transition: .7s ease;
+}
+.body button:hover{
+    background-color:rgb(164, 0, 79) ;
+    transform: scale(1.05);
+}
+
+.body button i{
+    margin: 0 5px;
+    margin-top: 25px;
+    color: wheat;
+}
+
+.body button p{
+    margin: 0;
+    font-size: 20px;
+    color: wheat;
+    margin-top: 20px;
+}
+
+.container .logo{
+    text-align: center;
+}
+.container .logo img{
+    width: 220px;
+    height: 150px;
+}
